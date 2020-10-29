@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pipesPasword';
+
+  tipo: string = 'text';
+  change: boolean = true;
+
+  cambiar(): void{
+
+    if(this.change == false){
+      this.change = true;
+    }else{
+      this.change = false;
+    }
+  }
 }

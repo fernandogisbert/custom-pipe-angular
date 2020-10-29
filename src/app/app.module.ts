@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { OcultarPipe } from './pipes/ocultar.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OcultarPipe
   ],
   imports: [
     BrowserModule,
